@@ -31,6 +31,8 @@ export const HerrorBanner = () => {
 </div>
 <div className="w-[27.5px] h-[27.5px] absolute top-[210.68px] left-[728px] rounded-[9px] -rotate-[22.85deg] bg-[#F7DBA7] z-0 ">
 </div>
+<div className="w-[14.63px] h-[14.63px] absolute top-[148px] left-[762.19px] rounded-[4px] -rotate-[-20.79deg] bg-[#F7DBA7] z-0 ">
+</div>
 
 
       {/* Content area */}
