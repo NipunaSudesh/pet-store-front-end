@@ -25,6 +25,8 @@ export const HerrorBanner = () => {
   <div className="w-[635px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
 </div>
 
+<div className="w-[635px] h-[635px] absolute top-[664px] left-[38.33px] rounded-[99px] -rotate-[-56.47deg] bg-[#F7DBA7] z-0 opacity-[40%]">
+</div>
 
 
       {/* Content area */}
