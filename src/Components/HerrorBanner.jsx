@@ -49,7 +49,7 @@ export const HerrorBanner = () => {
           <button className="flex items-center border border-[#003459] text-[#003459] px-7 py-3.5 rounded-full transition-all hover:bg-gray-100">
       View Intro
       <span className="ml-2 text-[#003459] w-[18px] h-[18px] rounded-full border border-[#003459] flex justify-center items-center mx-auto ">
-        <FaPlay size={10} />
+        <FaPlay size={8} />
       </span>
     </button>
             <button className='bg-[#003459] text-white rounded-[57px] px-[28px] py-[14px] transition hover:bg-[#0c1b26]'>
