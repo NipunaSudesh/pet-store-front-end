@@ -12,12 +12,20 @@ export const HerrorBanner = () => {
 
       {/* Rotated background elements */}
       <div className="w-[635px] h-[635px] absolute -top-[597px] -left-[214.33px] rounded-[99px] rotate-[25.23deg] bg-[#F7DBA7] z-0"></div>
-      <div className="w-[635px] h-[635px] absolute top-[180px] left-[865.67px] rounded-[99px] rotate-[25.23deg] bg-[#F7DBA7] z-0"></div>
+   
+      <div className="w-[67.1px] h-[67.1px] absolute top-[179px] left-[139.22px] gap-0 rounded-tl-[20px] opacity-100 rotate-[-25.23deg] bg-[#F7DBA7] z-10"></div>
 
-      {/* Floating element */}
-      <div className="w-[67.1px] h-[67.1px] absolute top-[179px] left-[132.6px] gap-0 rounded-tl-[20px] opacity-100 rotate-[-25.23deg] bg-[#F7DBA7] z-10"></div>
+      <div>
+  {/* Blue Div Underneath */}
+  <div
+    className="absolute w-[605px] h-[635px] top-[268px] left-[699.22px] rounded-[99px] opacity-100 -rotate-[-9.35deg] bg-[#003459] " // Set z-index to -1 to keep it under
+  ></div>
 
-      
+  {/* Yellow Div on Top */}
+  <div className="w-[635px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
+</div>
+
+
 
       {/* Content area */}
       <div className='flex bg-transparent items-start justify-between relative z-20 '>
