@@ -17,13 +17,13 @@ export const HerrorBanner = () => {
       <div>
   
   <div
-    className="absolute w-[605px] h-[635px] top-[268px] left-[699.22px] rounded-[99px] opacity-100 -rotate-[-9.35deg] bg-[#003459] " 
+    className="absolute w-[585px] h-[635px] top-[268px] left-[699.22px] rounded-[99px] opacity-100 -rotate-[-9.35deg] bg-[#003459] " 
   ></div>
 
-  <div className="w-[635px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
+  <div className="w-[605px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
 </div>
 
-<div className="w-[635px] h-[635px] absolute top-[664px] left-[38.33px] rounded-[99px] -rotate-[-56.47deg] bg-[#F7DBA7] z-0 opacity-[40%]">
+<div className="w-[635px] h-[635px] absolute top-[664px] left-[38.33px] rounded-[99px] -rotate-[-56.47deg] bg-[#372b14] z-0 opacity-[40%]">
 </div>
 <div className="w-[21.47px] h-[21.47px] absolute top-[223.64px] left-[727px] rounded-[6px] -rotate-[43deg] bg-[#002A48] ">
 </div>
