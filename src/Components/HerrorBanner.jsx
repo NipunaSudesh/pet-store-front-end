@@ -27,7 +27,9 @@ export const HerrorBanner = () => {
 
 <div className="w-[635px] h-[635px] absolute top-[664px] left-[38.33px] rounded-[99px] -rotate-[-56.47deg] bg-[#F7DBA7] z-0 opacity-[40%]">
 </div>
-<div className="w-[21.47px] h-[21.47px] absolute top-[223.64px] left-[727px] rounded-[6px] -rotate-[43deg] bg-[#002A48] z-0 opacity-[40%]">
+<div className="w-[21.47px] h-[21.47px] absolute top-[223.64px] left-[727px] rounded-[6px] -rotate-[43deg] bg-[#002A48] ">
+</div>
+<div className="w-[27.5px] h-[27.5px] absolute top-[210.68px] left-[728px] rounded-[9px] -rotate-[22.85deg] bg-[#F7DBA7] z-0 ">
 </div>
 
 
