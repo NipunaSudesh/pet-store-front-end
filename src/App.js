@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { HerrorBanner } from './Components/HerrorBanner';
-import { Pet } from './Components/Pet';
+import { Pet } from './Components/Pet/Pet';
 
 function App() {
   return (

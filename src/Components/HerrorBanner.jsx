@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 export const HerrorBanner = () => {
   return (
-    <div className='relative flex flex-col w-full h-[663px] bg-[#FCEED5] rounded-b-[40px]'>
+    <div className='relative flex flex-col w-[1440px] h-[663px] bg-[#FCEED5] rounded-b-[40px]'>
       <div className="relative z-10">
         <NavBar />
       </div>
