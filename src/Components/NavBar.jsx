@@ -4,10 +4,10 @@ import { FaStar } from "react-icons/fa6";
 
 export const NavBar = () => {
   return (
-    <header className="w-full h-[100px] p-[28px] px-[130px] flex justify-between bg-[#FCEED5] opacity-100">
+    <header className="w-full h-[100px] p-[28px] px-[130px] flex justify-between bg-transparent opacity-100">
       <div className="w-[529px] h-[40px] flex gap-[48px] opacity-100">
-        <div className="flex items-center">
-          <div className='flex-col w-[115px] h-[40px] flex gap-1'>
+        <div className="flex items-center gap-10">
+          <div className='flex-col w-[115px] h-[40px] flex'>
             <h1 className="text-4xl font-bold">Monito</h1>
             <h4 className='mx-auto text-[#103559] text-xs'>Pets For Best</h4>
           </div>

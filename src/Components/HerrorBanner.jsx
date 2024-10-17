@@ -1,33 +1,50 @@
 import React from 'react';
 import banner from '../assets/images/banner.png';
+import { NavBar } from './NavBar';
 
 export const HerrorBanner = () => {
   return (
-    <div className='w-full flex h-[663px] bg-[#FCEED5] rounded-b-[40px] items-center justify-between relative'>
-
-      <div className='flex flex-col justify-center ml-[130px]'>
-        <h1 className='w-[535px] h-[68px] font-SVN-Gilroy font-extrabold text-[60px] leading-[68px] mb-4 text-left'>
-          One more friend
-        </h1>
-        <h2 className='w-[532px] h-[60px] font-SVN-Gilroy font-bold text-[46px] leading-[60px] mb-4 text-left'>
-          Thousands more fun!
-        </h2>
-        <p className='w-[530px] h-[72px] font-SVN-Gilroy font-medium text-[16px] leading-[24px] text-gray-700 mb-6 text-left'>
-          Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
-        </p>
-        <div className='flex space-x-4'>
-          <button className='border border-[#003459] bg-transparent text-black px-7 py-3.5 rounded-[57px] transition hover:bg-gray-100'>
-            View Intro
-          </button>
-          <button className='bg-blue-500 text-white rounded-[57px] px-[28px] py-[14px] transition hover:bg-blue-600'>
-            Explore Now
-          </button>
-        </div>
+    <div className='relative flex flex-col w-full h-[663px] bg-[#FCEED5] rounded-b-[40px]'>
+      {/* NavBar at the top */}
+      <div className="relative z-10">
+        <NavBar />
       </div>
+{/* ///////////////////////////////////////////////// */}
+      <div className="w-[67.1px] h-[67.1px] absolute top-[179px] left-[132.6px] gap-0 rounded-tl-[20px] opacity-100 rotate-[-25.23deg] bg-[#F7DBA7] z-10"></div>
 
-      
-      <div className='flex items-center justify-center mr-[130px]'>
-        <img src={banner} alt="Banner of various pets" className='w-[944px] h-[693px] top-[84px] left-[539ox]' />
+
+
+      {/* Rotated background element */}
+      <div className="w-[635px] h-[635px] absolute -top-[597px] -left-[214.33px] rounded-[99px] rotate-[25.23deg] bg-[#F7DBA7] z-0"></div>
+
+{/* ////////////////////////////////////////////////// */}
+      {/* Content area */}
+      <div className=' flex bg-transparent items-center justify-between absolute z-20 px-[130px]'>
+        {/* Text section */}
+        <div className=' flex flex-col justify-center'>
+          <h1 className='w-[535px] absolute h-[68px] top-[180px] left-[130px] font-SVN-Gilroy font-extrabold text-[60px] leading-[68px] mb-4 text-left '>
+            One more friend
+          </h1>
+          <h2 className='w-[532px] h-[60px] font-SVN-Gilroy font-bold text-[46px] leading-[60px] mb-4 text-left'>
+            Thousands more fun!
+          </h2>
+          <p className='w-[530px] h-[72px] font-SVN-Gilroy font-medium text-[16px] leading-[24px] text-gray-700 mb-6 text-left'>
+            Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!
+          </p>
+          <div className='flex space-x-4'>
+            <button className='border border-[#003459] bg-transparent text-black px-7 py-3.5 rounded-[57px] transition hover:bg-gray-100'>
+              View Intro
+            </button>
+            <button className='bg-[#003459] text-white rounded-[57px] px-[28px] py-[14px] transition hover:bg-[#0c1b26]'>
+              Explore Now
+            </button>
+          </div>
+        </div>
+
+        {/* Image section */}
+        <div className='flex items-center justify-center'>
+          <img src={banner} alt="Banner of various pets" className='w-[944px] h-[693px]' />
+        </div>
       </div>
     </div>
   );
