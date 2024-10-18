@@ -9,6 +9,8 @@ import img4 from './images/img4.png';
 import img5 from './images/img5.png';
 import img6 from './images/img6.png';
 import img7 from './images/img7.png';
+import foot from './images/foot.png';
+import handDog from './images/handDog.png';
 
 export{
     banner ,
@@ -21,5 +23,7 @@ export{
     img4,
     img5,
     img7,
-    img6
+    img6,
+    foot,
+    handDog
 }

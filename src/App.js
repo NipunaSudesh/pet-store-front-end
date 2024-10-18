@@ -6,6 +6,7 @@ import { Pet } from './Components/Pet/Pet';
 import { BannerTop } from './Components/BannerTop';
 import { Product } from './Components/Product/Product';
 import { Banner2 } from './Components/Banner2';
+import { Banner3 } from './Components/Banner3';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BannerTop />
       <Product />
       <Banner2 />
+      <Banner3 />
     </div>
   );
 }
