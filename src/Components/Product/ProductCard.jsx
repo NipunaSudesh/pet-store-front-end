@@ -22,7 +22,7 @@ export const ProductCard = () => {
         </div>
             <h2 className="font-SVN-Gilroy font-bold text-[14px] text-[#00141F] text-left ">8.900.000 VHD</h2>
         </div>
-        <div className='flex items-center justify-center my-auto h-[34px] p-[6px 10px 4px 10px] bg-[#FCEED5] w-full rounded-[8px] gap-[2px]'>
+        <div className='flex mt-2 items-center justify-center my-auto h-[34px] p-[6px 10px 4px 10px] bg-[#FCEED5] w-full rounded-[8px] gap-[2px]'>
     <IoIosGift className='w-[17.46px] h-[20px] text-red-500' />
     <LuDot />
     <h2 className='w-[168px] h-[20px] font-SVN-Gilroy font-bold text-[14px] leading-[20px] text-[#002A48]'>
