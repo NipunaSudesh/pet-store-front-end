@@ -6,6 +6,18 @@ import { FaPlay } from "react-icons/fa";
 export const Banner3 = () => {
   return (
     <div className='w-[1180px] h-[378px] bg-[#FFB775] mx-[130px] rounded-[20px] z-0 relative overflow-hidden'> 
+
+<div 
+  className='absolute top-[148.72px] left-[638.51px] w-[787.54px] h-[787.54px] rounded-[99px] opacity-30 transform rotate-[-121.75deg] bg-[#FFE7BA]'>
+</div>
+
+<div 
+  className='absolute w-[782.29px] h-[655px] -top-[260px] left-[-193.67px] gap-0 rounded-[99px] opacity-100 rotate-[-121.75deg] bg-[#FCEED5] z-10'
+  >
+</div>
+
+
+
         <div className='flex flex-col justify-start m-10 z-10'>
             <div className='flex'>
                 <h1 className='w-[225px] h-[68px] font-SVN-Gilroy font-extrabold text-[52px] leading-[68px] z-10 text-[#003459]'>
@@ -13,13 +25,13 @@ export const Banner3 = () => {
                 </h1>
                 <img src={foot} alt='foot' className='w-[42px] h-[38px] text-[#003459] z-10 ml-10 mt-4'/>
             </div>
-            <h2 className='w-[448px] h-[54px] font-SVN-Gilroy font-bold text-[36px] leading-[54px] text-[#003459]'>
+            <h2 className='w-[448px] h-[54px] font-SVN-Gilroy font-bold text-[36px] leading-[54px] text-[#003459] z-10'>
                 We need help. So do they.
             </h2>
             <p className='w-[394px] h-[36px] font-SVN-Gilroy font-medium text-[12px] leading-[18px] z-10'>
                 Adopt a pet and give it a home,<br /> it will love you back unconditionally.
             </p>
-            <div className='flex space-x-4 mt-5'>
+            <div className='flex space-x-4 mt-5 z-10'>
                 <button className="flex items-center border border-[#003459] text-[#003459] px-7 py-3.5 rounded-full transition-all hover:bg-gray-100">
                     View Intro
                     <span className="ml-2 text-[#003459] w-[18px] h-[18px] rounded-full border border-[#003459] flex justify-center items-center mx-auto">
