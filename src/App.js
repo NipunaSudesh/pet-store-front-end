@@ -5,6 +5,7 @@ import { HerrorBanner } from './Components/HerrorBanner';
 import { Pet } from './Components/Pet/Pet';
 import { BannerTop } from './Components/BannerTop';
 import { Product } from './Components/Product/Product';
+import { Banner2 } from './Components/Banner2';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Pet />
       <BannerTop />
       <Product />
+      <Banner2 />
     </div>
   );
 }
