@@ -8,6 +8,7 @@ import { Product } from './Components/Product/Product';
 import { Banner2 } from './Components/Banner2';
 import { Banner3 } from './Components/Banner3';
 import { Blog } from './Components/Blog/Blog';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Banner2 />
       <Banner3 />
       <Blog />
+      <Footer />
     </div>
   );
 }
