@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io";
-import { img1,img2,img3,img4,img5,img6,img7 } from '../assets';
+import { img1,img2,img3,img4,img5,img6,img7 } from '../../assets';
 
 export const Banner2 = () => {
   return (
