@@ -1,5 +1,6 @@
 import React from 'react';
 import dog from '../../assets/images/dog.png'; 
+import { LuDot } from "react-icons/lu";
 
 export const PetCard = () => {
   return (
@@ -14,6 +15,7 @@ export const PetCard = () => {
 </h1>
         <div className='flex gap-3'>
         <h2 className="font-SVN-Gilroy font-medium text-[12px] leading-[18px] text-left text-[#667479]">Gane: Male</h2>
+        <LuDot />
         <h2 className="font-SVN-Gilroy font-medium text-[12px] leading-[18px] text-left text-[#667479]">age: 02 months</h2>
         </div>
             <h2 className="font-SVN-Gilroy font-bold text-[14px] text-[#00141F] text-left ">8.900.000 VHD</h2>
