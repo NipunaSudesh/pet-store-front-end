@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 export const Banner3 = () => {
   return (
-    <div className='w-[1180px] h-[378px] bg-[#FFB775] mx-[130px] rounded-[20px] z-0 relative overflow-hidden'> 
+    <div className='hidden md:block w-[1180px] h-[378px] bg-[#FFB775] mx-[130px] rounded-[20px] z-0 relative overflow-hidden'> 
 
 <div 
   className='absolute top-[148.72px] left-[638.51px] w-[787.54px] h-[787.54px] rounded-[99px] opacity-30 transform rotate-[-121.75deg] bg-[#FFE7BA]'>

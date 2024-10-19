@@ -23,9 +23,9 @@ function App() {
       <Pet />
       <BannerTop />
       <Product />
-      {/* <Banner2 /> */}
-      {/* <Banner3 /> */}
-      {/* <Blog /> */}
+      <Banner2 />
+      <Banner3 />
+      <Blog />
       {/* <Footer /> */}
 
 {/* ////////////Category/////////////////// */}
