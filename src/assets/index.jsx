@@ -12,6 +12,7 @@ import img7 from './images/img7.png';
 import foot from './images/foot.png';
 import handDog from './images/handDog.png';
 import blog from './images/blog.png';
+import dogs from './images/dogs.png';
 
 export{
     banner ,
@@ -27,5 +28,6 @@ export{
     img6,
     foot,
     handDog,
-    blog
+    blog,
+    dogs
 }
