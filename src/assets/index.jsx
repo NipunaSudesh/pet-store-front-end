@@ -15,6 +15,7 @@ import blog from './images/blog.png';
 import dogs from './images/dogs.png';
 import heard from './images/heard.png';
 import heard2 from './images/heard2.png';
+import msg from './images/msg.png';
 
 export{
     banner ,
@@ -33,5 +34,6 @@ export{
     blog,
     dogs,
     heard2,
-    heard
+    heard,
+    msg
 }

@@ -15,14 +15,15 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa"
 import { FaShareNodes } from "react-icons/fa6";
+import msg from '../../assets/images/msg.png'
 
 export const ProductDetails = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     
     return (
-        <div className='w-full h-screen flex flex-col'>
+        <div className='w-full h-[826px] flex flex-col'>
             <NavBar />
-            <div className='flex w-full h-full ml-[130px]'>
+            <div className='flex mt-10 w-full h-full ml-[130px]'>
                 <div className='flex flex-col '>
                                     <div className=' h-full gap-[17px] w-[560px] p-2 rounded-lg'>
                     <Swiper
@@ -62,8 +63,8 @@ export const ProductDetails = () => {
 
 
                 </div>
-                <div className="h-[48px] w-full rounded-[10px] justify-between p-[4px] flex bg-[#FCEED5]">
-                    <div className="w-[560px] h-[48px] rounded-[10px] justify-between py-[9px] px-[12px] flex">
+                <div className="h-[48px] mt-[-200px] w-[98%] rounded-[10px] justify-between p-[4px] flex bg-[#FCEED5]">
+                    <div className="w-[540px] h-[48px] rounded-[10px] justify-between py-[9px] px-[12px] flex">
                         <div className='flex'>
                             <img src={heard} alt='heart' className='w-[24px] h-[24px]'/>
                             <h2 className="text-[14px] font-bold leading-[20px] text-left SVN-Gilroy ml-2">100% health guarantee for pets</h2>
@@ -88,7 +89,87 @@ export const ProductDetails = () => {
                 </div>
                 </div>
 
-                <div className='w-1/2 bg-slate-400'></div>
+                <div className='w-1/2 ml-10'>
+                <div className="p-4  bg-white rounded-lg w-[617px] h-[787px] gap-[18px]">
+                    <div className='flex flex-col  gap-[6px]'>
+                    <p className="text-[14px] font-bold leading-[20px] text-left SVN-Gilroy text-[#99A2A5]">SKU #1000078</p>
+      <h2 className="text-[24px] font-bold leading-[36px] text-left SVN-Gilroy text-[#002A48]">Shiba Inu Sepia</h2>
+      <p className="text-[20px] font-bold leading-[32px] text-left SVN-Gilroy text-[#002A48]">34.000.000 VND</p>
+                    </div>
+
+      <div className="flex items-center mb-2">
+        <div className='flex gap-4'>
+          
+          <button className="text-center w-[138px] h-[44px] rounded-[57px]  gap-[10px] bg-[#003459] text-white hover:bg-[#0e2434]">Contact us</button>
+          <button className="w-[217px] h-[44px] hover:bg-[#b3b8bb] rounded-[57px] border-2 border-[#003459] text-center text-[#003459] flex items-center justify-center gap-[10px]">
+  <img src={msg} alt="msg" className="w-[26px] h-[28px]" />
+  <span className="text-[16px] font-bold leading-[24px] text-[#002A48]">Chat with Monito</span>
+</button>
+
+        </div>
+      </div>
+      <div className="flex flex-col gap-4 relative">
+        <div className='flex border-b-[1px] rounded-lg h-[30px]'>
+          <p className="text-gray-500 ml-1">SKU</p>
+          <p className="text-g25y-500 left-[180px] absolute">: #1000078</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Gender</p>
+          <p className="text-gray-500 left-[250px] absolute">: Female</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Age</p>
+          <p className="text-gray-500 left-[250px] absolute">: 2 Months</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Size</p>
+          <p className="text-gray-500 left-[250px] absolute">: Small</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Color</p>
+          <p className="text-gray-500 left-[250px] absolute">: Apricot & Tan</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Vaccinated</p>
+          <p className="text-gray-500 left-[250px] absolute">: Yes</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Dewormed</p>
+          <p className="text-gray-500 left-[250px] absolute">: Yes</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Cert.</p>
+          <p className="text-gray-500 left-[250px] absolute">: Yes (MKA)</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Microchip</p>
+          <p className="text-gray-500 left-[250px] absolute">: Yes</p>
+          </div>
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Location</p>
+          <p className="text-gray-500 left-[250px] absolute">: Vietnam</p>
+          </div>
+
+          <div className='flex  border-b-[1px] rounded- h-[30px] rounded-lg'>
+          <p className="text-gray-500 ml-1">Published Date</p>
+          <p className="text-gray-500 left-[250px] absolute">: 12-Oct-2022</p>
+          </div>
+          <div className='flex '>
+          <p className="text-gray-500 ml-1">Additional Information</p>
+          <p className="text-gray-500 left-[250px] absolute">: Pure breed Shih Tzu. Good body structure. With MKA cert and Microchip. Father from champion lineage.</p>
+          </div>
+          </div>
+        </div>
+        <div>
+          
+          
+        </div>
+      </div>
+      
+      
+    
+                
+              
             </div>
         </div>
     );
