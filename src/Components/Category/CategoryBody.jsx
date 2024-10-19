@@ -4,7 +4,7 @@ import { SmallDog } from './SmallDog'
 
 export const CategoryBody = () => {
   return (
-    <div className='w-[1400px] flex pt-[20px]'>
+    <div className='w-[1400px] flex pt-[20px] mb-4'>
       <Filter />
       <SmallDog />
     </div>

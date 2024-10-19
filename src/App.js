@@ -10,7 +10,7 @@ import { CategoryBody } from './Components/Category/CategoryBody';
 // import { Banner2 } from './Components/HomePage/Banner2';
 // import { Banner3 } from './Components/HomePage/Banner3';
 // import { Blog } from './Components/HomePage/Blog/Blog';
-// import { Footer } from './Components/HomePage/Footer';
+ import { Footer } from './Components/HomePage/Footer';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
       <Footer /> */}
       <Home />
       <CategoryBody />
+      <Footer />
     </div>
   );
 }
