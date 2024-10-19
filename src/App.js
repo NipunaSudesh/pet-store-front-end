@@ -13,6 +13,8 @@ import { CategoryBody } from './Components/Category/CategoryBody';
  import { Footer } from './Components/HomePage/Footer';
 import { ProductDetails } from './Components/ProductDetails/ProductDetails';
 import { Costomer } from './Components/ProductDetails/Costomer';
+import { Pappies } from './Components/ProductDetails/Pappies';
+import { NavBar } from './Components/HomePage/NavBar';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
       {/* ///////////////ProductDetails//////////// */}
       <ProductDetails />
       <Costomer />
+      <Pappies />
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { LuDot } from "react-icons/lu";
 
 export const PetCard = ({ id, breed, gender, age, price, image }) => {
   return (
-    <div className="w-[280px] h-[378px] rounded-[12px] p-[8px] gap-[8px] bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">
+    <div className="w-[280px] mb-2 h-[378px] rounded-[12px] p-[8px] gap-[8px] bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">
       <div className='flex flex-col'>
         <div>
           <img src={image} alt={breed} className='w-[264px] h-[264px] rounded' />

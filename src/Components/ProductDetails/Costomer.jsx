@@ -17,7 +17,7 @@ export const Costomer = () => {
                 }
                 const data = await response.json();
                 
-                setImages(data); // Ensure this matches the structure returned from your API
+                setImages(data);
             } catch (error) {
                 console.error('Error fetching Costomer:', error);
             }
