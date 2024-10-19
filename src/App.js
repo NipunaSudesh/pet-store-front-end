@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Home } from './Components/Category/Home';
+import { CategoryBody } from './Components/Category/CategoryBody';
 
 // import { HerrorBanner } from './Components/HomePage/HerrorBanner';
 // import { Pet } from './Components/HomePage/Pet/Pet';
@@ -23,6 +24,7 @@ function App() {
       <Blog />
       <Footer /> */}
       <Home />
+      <CategoryBody />
     </div>
   );
 }
