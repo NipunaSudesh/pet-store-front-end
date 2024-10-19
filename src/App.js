@@ -3,13 +3,13 @@ import './App.css';
 import { Home } from './Components/Category/Home';
 import { CategoryBody } from './Components/Category/CategoryBody';
 
-// import { HerrorBanner } from './Components/HomePage/HerrorBanner';
-// import { Pet } from './Components/HomePage/Pet/Pet';
-// import { BannerTop } from './Components/HomePage/BannerTop';
-// import { Product } from './Components/HomePage/Product/Product';
-// import { Banner2 } from './Components/HomePage/Banner2';
-// import { Banner3 } from './Components/HomePage/Banner3';
-// import { Blog } from './Components/HomePage/Blog/Blog';
+import { HerrorBanner } from './Components/HomePage/HerrorBanner';
+import { Pet } from './Components/HomePage/Pet/Pet';
+import { BannerTop } from './Components/HomePage/BannerTop';
+import { Product } from './Components/HomePage/Product/Product';
+import { Banner2 } from './Components/HomePage/Banner2';
+import { Banner3 } from './Components/HomePage/Banner3';
+import { Blog } from './Components/HomePage/Blog/Blog';
  import { Footer } from './Components/HomePage/Footer';
 import { ProductDetails } from './Components/ProductDetails/ProductDetails';
 import { Customer } from './Components/ProductDetails/Costomer';
@@ -19,24 +19,24 @@ import { NavBar } from './Components/HomePage/NavBar';
 function App() {
   return (
     <div className="flex flex-col ">
-      {/* <HerrorBanner />
+      <HerrorBanner />
       <Pet />
       <BannerTop />
       <Product />
       <Banner2 />
       <Banner3 />
       <Blog />
-      <Footer /> */}
+      <Footer />
 
 {/* ////////////Category/////////////////// */}
        {/* <Home />
       <CategoryBody />
       <Footer /> */}
       {/* ///////////////ProductDetails//////////// */}
-      <ProductDetails />
+      {/* <ProductDetails />
       <Customer />
       <Pappies />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
