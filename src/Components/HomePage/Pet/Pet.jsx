@@ -46,7 +46,7 @@ export const Pet = () => {
         </div>
       </div>
 
-      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 sm:l-[130px] gap-4 w-full'>
+      <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-10 sm:ml-[130px] gap-4 w-full'>
         {pappies.map((pappy, index) => (
             <PetCard 
                 key={index}

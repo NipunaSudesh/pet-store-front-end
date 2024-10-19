@@ -23,10 +23,10 @@ function App() {
       <Pet />
       <BannerTop />
       <Product />
-      <Banner2 />
-      <Banner3 />
-      <Blog />
-      <Footer />
+      {/* <Banner2 /> */}
+      {/* <Banner3 /> */}
+      {/* <Blog /> */}
+      {/* <Footer /> */}
 
 {/* ////////////Category/////////////////// */}
        {/* <Home />
