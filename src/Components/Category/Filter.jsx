@@ -17,7 +17,7 @@ export const Filter = () => {
   const [priceMax, setPriceMax] = useState('');
   const [breed, setBreed] = useState('');
   return (
-    <div className='w-[380px] flex ml-[130px]'>
+    <div className='hidden md:block w-[380px] ml-[130px]'>
       <div className='w-full h-[600px]   flex flex-col'>
         <h1 className='w-[57px] h-[36px] ml-4 font-SVN-Gilroy font-bold text-[24px] leading-[36px]'>Filter</h1>
 

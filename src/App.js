@@ -19,19 +19,19 @@ import { NavBar } from './Components/HomePage/NavBar';
 function App() {
   return (
     <div className="flex flex-col ">
-      <HerrorBanner />
+      {/* <HerrorBanner />
       <Pet />
       <BannerTop />
       <Product />
       <Banner2 />
       <Banner3 />
       <Blog />
-      {/* <Footer /> */}
+      <Footer /> */}
 
 {/* ////////////Category/////////////////// */}
-       {/* <Home />
+       <Home />
       <CategoryBody />
-      <Footer /> */}
+      <Footer />
       {/* ///////////////ProductDetails//////////// */}
       {/* <ProductDetails />
       <Customer />

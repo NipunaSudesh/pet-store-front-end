@@ -30,7 +30,7 @@ export const NavBar = () => {
 
 
 
-      <div className="flex flex-col items-center ml-[130px]">
+      <div className="flex flex-col items-center ml-[130px] hidden md:block">
         <h1 className="text-4xl font-bold text-center text-[#003459]">Monito</h1>
         <h4 className='text-[#103559] text-xs text-center'>Pets For Best</h4>
       </div>

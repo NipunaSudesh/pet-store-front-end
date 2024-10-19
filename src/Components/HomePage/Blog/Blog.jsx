@@ -4,7 +4,7 @@ import { BlogCard } from './BlogCard';
 
 export const Blog = () => {
   return (
-    <div className='w-full lg:w-[1440px] h-auto lg:h-[634px] relative flex flex-col'>
+    <div className='w-full lg:w-[1440px] h-auto lg:h-[634px] relative flex flex-col mb-[1520px] md:mb-4'>
       {/* Heading Section */}
       <div className='absolute flex w-full top-[40px] lg:top-[60px] px-4 lg:px-[130px]'>
         <div className='w-full lg:w-[367px] h-[62px] gap-[2px]'>
