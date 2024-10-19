@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { PetCard } from '../HomePage/Pet/PetCard';
 
-
 export const Pappies = () => {
-    const [Pappies,setPappies]=useState([])
+    const [pappies, setPappies] = useState([]);
 
     useEffect(() => {
         const fetchPappies = async () => {
@@ -24,43 +23,31 @@ export const Pappies = () => {
 
         fetchPappies(); 
     }, []);
-  return (
 
-    <div className='relative w-[1440px] h-[986px] bg-white z-20 flex flex-col'>
-      
-      <div className='absolute flex w-full top-[60px] left-[130px]'>
-        <div className='w-[367px] h-[62px] gap-[2px]'>
-          <h2 className='w-[191px] h-[24px] font-SVN-Gilroy font-medium text-[16px] leading-[24px] text-[#000000]'>
-            What's new?
-          </h2>
-          <h1 className='w-[367px] h-[36px] font-SVN-Gilroy font-bold text-[24px] leading-[36px] text-[#003459]'>
-            Take a look at some of our pets
-          </h1>
+    return (
+        <div className='relative bg-white z-20 flex flex-col px-4 md:px-8 lg:px-16 sm:mx-auto'>
+            <div className='flex flex-col items-start mt-16'>
+                <h2 className='font-SVN-Gilroy font-medium text-[16px] leading-[24px] text-[#000000]'>
+                    What's new?
+                </h2>
+                <h1 className='font-SVN-Gilroy font-bold text-[24px] leading-[36px] text-[#003459] sm:text-[16px]'>
+                    Take a look at some of our pets
+                </h1>
+            </div>
+
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10'>
+                {pappies.map((pappy, index) => (
+                    <PetCard 
+                        key={index}
+                        id={pappy.id}
+                        breed={pappy.breed}
+                        gender={pappy.gender}
+                        age={pappy.age}
+                        price={pappy.price}
+                        image={pappy.image}
+                    />
+                ))}
+            </div>
         </div>
-      </div>
-
-      
-      <div className='absolute top-[78px] right-[130px]'>
-
-      </div>
-      <div className='top-[158px] w-full absolute grid grid-cols-4 gap-[8px] px-[130px]'>
-        {
-            Pappies.map((pappy,index)=>(
-                <PetCard 
-                key={index}
-                id={pappy.id}
-                breed={pappy.breed}
-                gender={pappy.gender}
-                age={pappy.age}
-                price={pappy.price}
-                image={pappy.image}
-                />
-            ))
-
-            
-        }
-      </div>
-    </div>
-  );
+    );
 };
-
