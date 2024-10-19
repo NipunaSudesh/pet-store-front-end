@@ -19,10 +19,12 @@ export const Blog = () => {
 
       {/* View More Button */}
       <div className='absolute top-[100px] lg:top-[78px] lg:right-[130px]'>
-  <button className='flex items-center justify-between w-full sm:w-auto md:w-[150px] lg:w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-4 lg:px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
-    View More
-    <IoIosArrowForward className='w-5 lg:w-6 h-5 lg:h-6 text-gray-700' />
-  </button>
+      <div className='mt-4 md:mt-0 hidden md:flex'>
+          <button className='flex  items-center justify-between w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
+            View More
+            <IoIosArrowForward className='w-6 h-6 text-gray-700' />
+          </button>
+        </div>
 </div>
 
 
@@ -32,6 +34,7 @@ export const Blog = () => {
         <BlogCard />
         <BlogCard />
       </div>
+
     </div>
   );
 };

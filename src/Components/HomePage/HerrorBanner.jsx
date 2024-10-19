@@ -17,9 +17,9 @@ export const HerrorBanner = () => {
 
       <div>
         <div
-          className="absolute w-[585px] h-[635px] top-[268px] left-[699.22px] rounded-[99px] opacity-100 -rotate-[-9.35deg] bg-[#003459] " 
+          className="hidden md:block absolute w-[585px] h-[635px] top-[268px] left-[699.22px] rounded-[99px] opacity-100 -rotate-[-9.35deg] bg-[#003459] " 
         ></div>
-        <div className="w-[605px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
+        <div className="hidden md:block w-[605px] h-[635px] absolute top-[245px] left-[750.67px] rounded-[99px] -rotate-[-25.23deg] bg-[#F7DBA7] z-0"></div>
       </div>
 
       <div className="hidden md:block w-[635px] h-[635px] absolute top-[664px] left-[38.33px] rounded-[99px] -rotate-[-56.47deg] bg-[#372b14] z-0 opacity-[40%]"></div>
@@ -72,7 +72,7 @@ export const HerrorBanner = () => {
         </div>
 
         <div className='relative flex items-center justify-center mt-4 md:mt-0'>
-          <img src={banner} alt="Banner of various pets" className='w-full max-w-[944px] h-auto z-10' />
+          <img src={banner} alt="Banner of various pets" className='w-full max-w-[944px] h-auto z-10 ' />
         </div>
       </div>
     </div>

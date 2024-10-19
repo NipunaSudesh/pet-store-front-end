@@ -38,8 +38,8 @@ export const Pet = () => {
           </h1>
         </div>
         
-        <div className='mt-4 md:mt-0 '>
-          <button className='flex items-center justify-between w-full md:w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
+        <div className='mt-4 md:mt-0 hidden md:flex'>
+          <button className='flex  items-center justify-between w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
             View More
             <IoIosArrowForward className='w-6 h-6 text-gray-700' />
           </button>
@@ -59,6 +59,12 @@ export const Pet = () => {
             />
         ))}
       </div>
+      <div className='mt-4  md:mt-0 md:hidden mx-auto w-[380px]'>
+          <button className='flex md:hidden  items-center justify-between w-full h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
+            View More
+            <IoIosArrowForward className='w-6 h-6 text-gray-700' />
+          </button>
+        </div>
     </div>
   );
 };

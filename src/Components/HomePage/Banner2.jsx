@@ -4,7 +4,7 @@ import { img1,img2,img3,img4,img5,img6,img7 } from '../../assets';
 
 export const Banner2 = () => {
   return (
-    <div className='hidden md:block w-[1438px] h-[251px] mt-[100px] gap-[15px] p-[40px 130px 40px 130px] flex-col '>
+    <div className='hidden md:block w-[1438px] h-[251px] mt-[100px] gap-[15px] p-[40px 130px 40px 130px] flex flex-col '>
         <div className='w-full h-[44px] flex justify-between px-36'>
         <h1 className='w-[341px] h-[31px] font-SVN-Gilroy font-medium text-[16px] leading-[31px]'>
     Proud to be part of  <span> </span>

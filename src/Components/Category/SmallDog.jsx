@@ -58,7 +58,7 @@ export const SmallDog = () => {
           </h1>
         </div>
         <div>
-          <button className='flex items-center justify-between w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
+          <button className=' hidden md:blockflex items-center justify-between w-[180px] h-[44px] rounded-[57px] border border-1.5 border-gray-500 px-[28px] py-[12px] gap-[8px] transition hover:bg-gray-100'>
             View More
             <IoIosArrowDown className='w-6 h-6 text-gray-700' />
           </button>

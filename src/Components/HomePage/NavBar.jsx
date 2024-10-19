@@ -36,7 +36,7 @@ export const NavBar = () => {
       </div>
 
       {/* Right Search Icon for Small Screens */}
-      <div className="md:hidden flex items-center">
+      <div className="hidden md:flex flex items-center">
         <CiSearch className="w-6 h-6 text-gray-400" />
       </div>
 
