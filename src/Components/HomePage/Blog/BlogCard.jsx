@@ -1,5 +1,5 @@
 import React from 'react';
-import blog from '../../assets/images/blog.png';
+import blog from '../../../assets/images/blog.png';
 
 export const BlogCard = () => {
   return (

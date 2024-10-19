@@ -1,5 +1,5 @@
 import React from 'react';
-import banner from '../assets/images/banner.png';
+import banner from '../../assets/images/banner.png';
 import { NavBar } from './NavBar';
 import { FaPlay } from "react-icons/fa";
 

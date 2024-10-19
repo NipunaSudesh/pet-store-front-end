@@ -1,5 +1,5 @@
 import React from 'react';
-import dog from '../../assets/images/dog.png'; 
+import dog from '../../../assets/images/dog.png'; 
 import { LuDot } from "react-icons/lu";
 
 export const PetCard = () => {

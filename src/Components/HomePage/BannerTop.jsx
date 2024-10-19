@@ -1,5 +1,5 @@
 import React from 'react'
-import girl from '../assets/images/girlWithDog.png';
+import girl from '../../assets/images/girlWithDog.png';
 import { FaPlay } from "react-icons/fa";
 
 export const BannerTop = () => {

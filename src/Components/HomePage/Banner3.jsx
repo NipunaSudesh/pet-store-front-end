@@ -1,6 +1,6 @@
 import React from 'react'
-import foot from '../assets/images/foot.png'
-import handDog from '../assets/images/handDog.png'
+import foot from '../../assets/images/foot.png'
+import handDog from '../../assets/images/handDog.png'
 import { FaPlay } from "react-icons/fa";
 
 export const Banner3 = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import dog from '../../assets/images/product.png'; 
+import dog from '../../../assets/images/product.png'; 
 import { IoIosGift } from "react-icons/io";
 import { LuDot } from "react-icons/lu";
 
