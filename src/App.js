@@ -12,6 +12,7 @@ import { CategoryBody } from './Components/Category/CategoryBody';
 // import { Blog } from './Components/HomePage/Blog/Blog';
  import { Footer } from './Components/HomePage/Footer';
 import { ProductDetails } from './Components/ProductDetails/ProductDetails';
+import { Costomer } from './Components/ProductDetails/Costomer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Footer /> */}
       {/* ///////////////ProductDetails//////////// */}
       <ProductDetails />
+      <Costomer />
     </div>
   );
 }
