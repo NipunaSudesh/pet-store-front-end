@@ -12,7 +12,7 @@ import { CategoryBody } from './Components/Category/CategoryBody';
 // import { Blog } from './Components/HomePage/Blog/Blog';
  import { Footer } from './Components/HomePage/Footer';
 import { ProductDetails } from './Components/ProductDetails/ProductDetails';
-import { Costomer } from './Components/ProductDetails/Costomer';
+import { Customer } from './Components/ProductDetails/Costomer';
 import { Pappies } from './Components/ProductDetails/Pappies';
 import { NavBar } from './Components/HomePage/NavBar';
 
@@ -34,7 +34,7 @@ function App() {
       <Footer /> */}
       {/* ///////////////ProductDetails//////////// */}
       <ProductDetails />
-      <Costomer />
+      <Customer />
       <Pappies />
       <Footer />
     </div>
