@@ -13,6 +13,8 @@ import foot from './images/foot.png';
 import handDog from './images/handDog.png';
 import blog from './images/blog.png';
 import dogs from './images/dogs.png';
+import heard from './images/heard.png';
+import heard2 from './images/heard2.png';
 
 export{
     banner ,
@@ -29,5 +31,7 @@ export{
     foot,
     handDog,
     blog,
-    dogs
+    dogs,
+    heard2,
+    heard
 }
