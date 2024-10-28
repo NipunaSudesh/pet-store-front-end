@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { CiSearch } from "react-icons/ci";
 import { FaStar } from "react-icons/fa6";
-import { AiOutlineMenu } from "react-icons/ai"; // Import the menu icon
-
+import { AiOutlineMenu } from "react-icons/ai"; 
+import { Link } from "react-router-dom";
 export const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -11,7 +11,7 @@ export const NavBar = () => {
   };
 
   return (
-    <header className="w-full h-[100px] p-[28px] flex items-center justify-between bg-transparent opacity-100">
+    <header className=" w-full h-[100px] p-[28px] flex items-center justify-between bg-transparent opacity-100 overflow-hidden">
       {/* Left Menu Icon for Small Screens */}
     <div className='flex justify-between items-center gap-20 md:hidden'>
     <div className="md:hidden flex items-center">
@@ -30,23 +30,17 @@ export const NavBar = () => {
 
 
 
-      <div className="flex flex-col items-center ml-[130px] hidden md:block">
+      <div className=" flex-col items-center ml-[130px] hidden md:block">
         <h1 className="text-4xl font-bold text-center text-[#003459]">Monito</h1>
         <h4 className='text-[#103559] text-xs text-center'>Pets For Best</h4>
       </div>
-
-      {/* Right Search Icon for Small Screens */}
-      <div className="hidden md:flex flex items-center">
-        <CiSearch className="w-6 h-6 text-gray-400" />
-      </div>
-
-      {/* Desktop Navigation Menu */}
+    {/* Desktop Navigation Menu */}
       <nav className="hidden md:flex items-center gap-[48px]">
         <ul className="space-x-4 flex">
-          <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Home</a></li>
-          <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Category</a></li>
-          <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">About</a></li>
-          <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Contact</a></li>
+          <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="/">Home</Link></li>
+          <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="/categoryPage">Category</Link></li>
+          <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="/productDetailsPage">About</Link></li>
+          <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="#footer">Contact</Link></li>
         </ul>
       </nav>
 
@@ -77,10 +71,10 @@ export const NavBar = () => {
       {isMenuOpen && (
         <nav className="md:hidden absolute top-[100px] left-0 right-0 bg-white p-4 shadow-lg z-10">
           <ul className="flex flex-col space-y-2">
-            <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Home</a></li>
-            <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Category</a></li>
-            <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">About</a></li>
-            <li className='font-bold text-lg leading-6 text-[#003459]'><a href="#">Contact</a></li>
+            <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="/">Home</Link></li>
+            <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="/categoryPage">Category</Link></li>
+            <li className='font-bold text-lg leading-6 text-[#003459]'> <Link to="/productDetailsPage">About</Link></li>
+            <li className='font-bold text-lg leading-6 text-[#003459]'><Link to="#footer">Contact</Link></li>
           </ul>
         </nav>
       )}

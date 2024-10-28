@@ -1,7 +1,7 @@
 import React from 'react';
 import { LuDot } from "react-icons/lu";
 
-export const PetCard = ({ id, breed, gender, age, price, image }) => {
+export const PetCard = ({ id, breed, gender, age, price, image,height }) => {
   return (
     <div className="max-w-[280px] w-full mb-2 h-auto rounded-[12px] p-4 gap-2 bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">
       <div className='flex flex-col'>
@@ -19,6 +19,7 @@ export const PetCard = ({ id, breed, gender, age, price, image }) => {
           </div>
           <h2 className="font-SVN-Gilroy font-bold text-[14px] text-[#00141F] text-left">{price} VND</h2>
         </div>
+
       </div>
     </div>
   );

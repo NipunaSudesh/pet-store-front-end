@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 
 export const Banner = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col overflow-hidden'>
       {/* Large Screen Banner */}
       <div className='hidden lg:block w-[1270px] h-[378px] relative left-[130px] bg-[#FCEED5] rounded-[20px] z-0 overflow-hidden'>
         {/* Background Shape */}
